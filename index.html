@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarjeta de usuario</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Island+Moments&display=swap" rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+                <div class="navInside">
+                    <h1 class="nav-title">Dojonary</h1>
+                    <div>
+                        <label for="name"></label>
+                        <input id="name" placeholder="Search" type="text" name="name">
+                    </div>
+                    <ul class="nav-links">
+                        <li><button onclick="logOut(this)" class="btn">Login</button></li>
+                    </ul>
+                </div>
+        </header>
+        <div class="contenedor">
+            <div class="contenedorPrincipal">
+                <div class="sections">
+                    <div class="izquierdo">
+                        <h2 class="nombre">
+                            Ninja
+                        </h2>
+                        <i>noun</i>
+                        <p>Plural ninjas</p>
+                        <div class="nav-links">
+                            <button onclick="mensaje('likes')" class="btnLikes">13 likes</button>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionText">
+                            A programmer who breaks down problems with zen-like focus.
+                        </p>
+                    </div>
+                </div>
+                <div class="contenedorPrincipal">
+                    <div class="sections">
+                        <div class="izquierdo">
+                            <h2 class="nombre">
+                                Ninja
+                            </h2>
+                            <i>noun</i>
+                            <p>Plural ninjas</p>
+                            <ul class="nav-links">
+                                <li><button class="btnLikes">13 likes</button></li>
+                            </ul>
+                        </div>
+                        <div class="description">
+                            <p class="descriptionText">
+                                A programmer who breaks down problems with zen-like focus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contenedorDerecho">
+                    <div class="sections">
+                        <div class="tarjetaInformacion"><!-- cambiar class-->
+                                <p class="textRight">
+                            Dojonary is defined by <span class="bold">you</span>                            
+                                </p>
+                            <ul class="nav-links">
+                                <li><button onclick="quitar(this)" class="btn">Add Definition</button></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </body>
+    <script src="js/script.js"></script>
+
+</html>
+
+
